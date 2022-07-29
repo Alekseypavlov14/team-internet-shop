@@ -1,0 +1,12 @@
+.NavLink {
+  color: #000;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  opacity: 0.85;
+  transition: all 0.3s;
+}
+
+.NavLink:hover {
+  color: #F66131;
+}
