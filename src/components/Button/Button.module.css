@@ -1,0 +1,30 @@
+.Button {
+  --color: #F66131;
+
+  border: none;
+  outline: none;
+  background-color: #fff;
+  display: block;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.Button.Outlined {
+  border: 2px solid var(--color);
+  color: var(--color);
+}
+
+.Button.Outlined:hover {
+  background-color: var(--color);
+  box-shadow: 5px 5px 10px #f6613159;
+  color: #fff;
+}
+
+.Button.Filled {
+  background-color: var(--color);
+  color: #fff;
+}
